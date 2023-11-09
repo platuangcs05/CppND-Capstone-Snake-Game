@@ -4,8 +4,6 @@
 #include <vector>
 #include "SDL.h"
 
-#define PROBABILITY 50 
-
 class Snake {
  public:
   enum class Direction { kUp, kDown, kLeft, kRight };
